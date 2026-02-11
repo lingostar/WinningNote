@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0939C8AC21FA58A745D9D6A8 /* SportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585982DD39C3E939C1AE4DC /* SportType.swift */; };
+		0D38B5C141C7ACDA0E88F19C /* BallSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B19848E3C4FB9387B70EFD /* BallSprite.swift */; };
+		0D96EF2A70C069450DEE91DB /* WinningNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A94A7214EA1A43E90726E /* WinningNoteTests.swift */; };
+		0DBC002ABBAB8D675229D1B1 /* WinningNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58339FB6B136D7F2A012C2AC /* WinningNoteApp.swift */; };
+		1AF2D4A257AB275A1C9A40EC /* FieldCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63186D52DB7A17B694FBD49 /* FieldCanvasView.swift */; };
+		2BFB680E4A73FE8B5D352986 /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359C8936A92B959756E54B1 /* AnimationEngine.swift */; };
+		2C65911CDD836ED1BE6F627A /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F90ACB7644B8182B1F874 /* InspectorView.swift */; };
+		47BF96D526BE7B142ECEDA1E /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D91FDD958464A3293D490 /* DocumentView.swift */; };
+		5B2EBC60D54C21C6ED915564 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC4F7BFEC7E4FF5B40D74FC /* Sprite.swift */; };
+		5E29CD38531E47B97292FBE3 /* PlayerInspectorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D2871868E36862C2B58EF /* PlayerInspectorTab.swift */; };
+		70B7011CEEDBD04B4048B7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE37AA50AFD2FACB5B6AECA /* Assets.xcassets */; };
+		7A26080865F89DF398A84B30 /* TacticsDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E678ED7A5025B28185537BB7 /* TacticsDocument.swift */; };
+		90F4DA5C7404C2B5B6274C7A /* BezierCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93922FECC9F43B5D9032D52 /* BezierCurve.swift */; };
+		9B701A6AD085E90E1D568D37 /* SpriteInspectorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F65D74CB7907AD5E101EB /* SpriteInspectorTab.swift */; };
+		A175B52584E8AC922689FD1C /* FrameInspectorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBA4B858F15C57ECE08FD2 /* FrameInspectorTab.swift */; };
+		AA6D4684A828F4366515D355 /* FieldRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E14227336069510CF9476E2 /* FieldRenderer.swift */; };
+		BAC9F1D3925ADE29D4929108 /* TrailPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E613424793B9B06B7BB09 /* TrailPathBuilder.swift */; };
+		C7362246E188FBDCA1D2682E /* AnimationFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99ABCE5D12C119D3AE8A7 /* AnimationFrame.swift */; };
+		C95CDB3C6E0C95FF6FBA966C /* SpriteFrameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF417DFAB0B49D7F78BBCE74 /* SpriteFrameInfo.swift */; };
+		DA6EA8E00CA1D6F9B0140E5D /* FormationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81EB8C9DEC068E772BEDCC /* FormationPresets.swift */; };
+		EA9DDBE17BA59523629E4058 /* PlayerSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6896CFDFE2D3E79F44AC49FD /* PlayerSprite.swift */; };
+		F5551766C10BFF6F440C0C96 /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB36678FC92F264CEFD02C /* GameInfo.swift */; };
+		F68ABA0E2F9191CD80FFD65A /* GameInspectorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1953B57A262BC10FE7FB8E1 /* GameInspectorTab.swift */; };
+		F6F4EA9A92AB7D7C775CD199 /* PlaybackControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB96C416D6531F4822E9623 /* PlaybackControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D03032B8314E7A19ECBD201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68BC28A6A4B38CEB2CB290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47A1B53CF9CF6071918F71D;
+			remoteInfo = WinningNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DBBA4B858F15C57ECE08FD2 /* FrameInspectorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameInspectorTab.swift; sourceTree = "<group>"; };
+		121F90ACB7644B8182B1F874 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		1C4D91FDD958464A3293D490 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		205DAF5C4CEDB56738D8D81C /* WinningNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinningNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3359C8936A92B959756E54B1 /* AnimationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		4082360AF5AC2975F90B8294 /* WinningNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinningNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E14227336069510CF9476E2 /* FieldRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldRenderer.swift; sourceTree = "<group>"; };
+		58339FB6B136D7F2A012C2AC /* WinningNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningNoteApp.swift; sourceTree = "<group>"; };
+		58B19848E3C4FB9387B70EFD /* BallSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallSprite.swift; sourceTree = "<group>"; };
+		5DE37AA50AFD2FACB5B6AECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6896CFDFE2D3E79F44AC49FD /* PlayerSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSprite.swift; sourceTree = "<group>"; };
+		6F5E4D4A20300CB41EE1C01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D3E613424793B9B06B7BB09 /* TrailPathBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailPathBuilder.swift; sourceTree = "<group>"; };
+		94DE5A28FAE1BB6729569546 /* WinningNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WinningNote.entitlements; sourceTree = "<group>"; };
+		9DC4F7BFEC7E4FF5B40D74FC /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		A89A94A7214EA1A43E90726E /* WinningNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningNoteTests.swift; sourceTree = "<group>"; };
+		B93922FECC9F43B5D9032D52 /* BezierCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurve.swift; sourceTree = "<group>"; };
+		BB81EB8C9DEC068E772BEDCC /* FormationPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormationPresets.swift; sourceTree = "<group>"; };
+		BF417DFAB0B49D7F78BBCE74 /* SpriteFrameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteFrameInfo.swift; sourceTree = "<group>"; };
+		D91D2871868E36862C2B58EF /* PlayerInspectorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInspectorTab.swift; sourceTree = "<group>"; };
+		E1953B57A262BC10FE7FB8E1 /* GameInspectorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInspectorTab.swift; sourceTree = "<group>"; };
+		E678ED7A5025B28185537BB7 /* TacticsDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticsDocument.swift; sourceTree = "<group>"; };
+		EA2F65D74CB7907AD5E101EB /* SpriteInspectorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteInspectorTab.swift; sourceTree = "<group>"; };
+		EBB96C416D6531F4822E9623 /* PlaybackControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlView.swift; sourceTree = "<group>"; };
+		EEAB36678FC92F264CEFD02C /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
+		F585982DD39C3E939C1AE4DC /* SportType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportType.swift; sourceTree = "<group>"; };
+		F63186D52DB7A17B694FBD49 /* FieldCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldCanvasView.swift; sourceTree = "<group>"; };
+		FAC99ABCE5D12C119D3AE8A7 /* AnimationFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFrame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1ACBDEE05503EA173A80623C = {
+			isa = PBXGroup;
+			children = (
+				577B8EE5ECCC52BD4A0BEEAC /* WinningNote */,
+				E18D5BF684ECFC60BAE69DE0 /* WinningNoteTests */,
+				E950D3C4AD7F8996A6937FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230E230D73FD8F7D3592ABC6 /* FieldRenderers */ = {
+			isa = PBXGroup;
+			children = (
+				4E14227336069510CF9476E2 /* FieldRenderer.swift */,
+			);
+			path = FieldRenderers;
+			sourceTree = "<group>";
+		};
+		26197AB4751807FD460E8F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D91FDD958464A3293D490 /* DocumentView.swift */,
+				F63186D52DB7A17B694FBD49 /* FieldCanvasView.swift */,
+				EBB96C416D6531F4822E9623 /* PlaybackControlView.swift */,
+				FDC36B649A088A596C06B366 /* Inspector */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28967E27217B5F37DC7C0F71 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3359C8936A92B959756E54B1 /* AnimationEngine.swift */,
+				B93922FECC9F43B5D9032D52 /* BezierCurve.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		577B8EE5ECCC52BD4A0BEEAC /* WinningNote */ = {
+			isa = PBXGroup;
+			children = (
+				6F5E4D4A20300CB41EE1C01D /* Info.plist */,
+				94DE5A28FAE1BB6729569546 /* WinningNote.entitlements */,
+				58339FB6B136D7F2A012C2AC /* WinningNoteApp.swift */,
+				28967E27217B5F37DC7C0F71 /* Animation */,
+				230E230D73FD8F7D3592ABC6 /* FieldRenderers */,
+				76D4C88544E1ED0BD4846F1E /* Models */,
+				7B3A7D20839EABB4035D3658 /* Resources */,
+				5965F5398C5B973F0A67ECEA /* Utilities */,
+				26197AB4751807FD460E8F1E /* Views */,
+			);
+			path = WinningNote;
+			sourceTree = "<group>";
+		};
+		5965F5398C5B973F0A67ECEA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB81EB8C9DEC068E772BEDCC /* FormationPresets.swift */,
+				8D3E613424793B9B06B7BB09 /* TrailPathBuilder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		76D4C88544E1ED0BD4846F1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAC99ABCE5D12C119D3AE8A7 /* AnimationFrame.swift */,
+				58B19848E3C4FB9387B70EFD /* BallSprite.swift */,
+				EEAB36678FC92F264CEFD02C /* GameInfo.swift */,
+				6896CFDFE2D3E79F44AC49FD /* PlayerSprite.swift */,
+				F585982DD39C3E939C1AE4DC /* SportType.swift */,
+				9DC4F7BFEC7E4FF5B40D74FC /* Sprite.swift */,
+				BF417DFAB0B49D7F78BBCE74 /* SpriteFrameInfo.swift */,
+				E678ED7A5025B28185537BB7 /* TacticsDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B3A7D20839EABB4035D3658 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DE37AA50AFD2FACB5B6AECA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E18D5BF684ECFC60BAE69DE0 /* WinningNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A89A94A7214EA1A43E90726E /* WinningNoteTests.swift */,
+			);
+			path = WinningNoteTests;
+			sourceTree = "<group>";
+		};
+		E950D3C4AD7F8996A6937FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4082360AF5AC2975F90B8294 /* WinningNote.app */,
+				205DAF5C4CEDB56738D8D81C /* WinningNoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC36B649A088A596C06B366 /* Inspector */ = {
+			isa = PBXGroup;
+			children = (
+				0DBBA4B858F15C57ECE08FD2 /* FrameInspectorTab.swift */,
+				E1953B57A262BC10FE7FB8E1 /* GameInspectorTab.swift */,
+				121F90ACB7644B8182B1F874 /* InspectorView.swift */,
+				D91D2871868E36862C2B58EF /* PlayerInspectorTab.swift */,
+				EA2F65D74CB7907AD5E101EB /* SpriteInspectorTab.swift */,
+			);
+			path = Inspector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47A1B53CF9CF6071918F71D /* WinningNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496A9BDBB056317087289B62 /* Build configuration list for PBXNativeTarget "WinningNote" */;
+			buildPhases = (
+				E13DA45BF604B6CCA82A14D3 /* Sources */,
+				81145A05FA0617FA6B1E2EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinningNote;
+			packageProductDependencies = (
+			);
+			productName = WinningNote;
+			productReference = 4082360AF5AC2975F90B8294 /* WinningNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4C6A56040096426B4275D0 /* WinningNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ACE6DD96A83E4DCCA4EE8A /* Build configuration list for PBXNativeTarget "WinningNoteTests" */;
+			buildPhases = (
+				704CC104B9B949DD64D7A5A2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEEA1A71B07FC7C54C05C2A /* PBXTargetDependency */,
+			);
+			name = WinningNoteTests;
+			packageProductDependencies = (
+			);
+			productName = WinningNoteTests;
+			productReference = 205DAF5C4CEDB56738D8D81C /* WinningNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A68BC28A6A4B38CEB2CB290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A47A1B53CF9CF6071918F71D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEA5EEBD1374AF1ACB5BB22C /* Build configuration list for PBXProject "WinningNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1ACBDEE05503EA173A80623C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47A1B53CF9CF6071918F71D /* WinningNote */,
+				EF4C6A56040096426B4275D0 /* WinningNoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81145A05FA0617FA6B1E2EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B7011CEEDBD04B4048B7B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		704CC104B9B949DD64D7A5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D96EF2A70C069450DEE91DB /* WinningNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13DA45BF604B6CCA82A14D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFB680E4A73FE8B5D352986 /* AnimationEngine.swift in Sources */,
+				C7362246E188FBDCA1D2682E /* AnimationFrame.swift in Sources */,
+				0D38B5C141C7ACDA0E88F19C /* BallSprite.swift in Sources */,
+				90F4DA5C7404C2B5B6274C7A /* BezierCurve.swift in Sources */,
+				47BF96D526BE7B142ECEDA1E /* DocumentView.swift in Sources */,
+				1AF2D4A257AB275A1C9A40EC /* FieldCanvasView.swift in Sources */,
+				AA6D4684A828F4366515D355 /* FieldRenderer.swift in Sources */,
+				DA6EA8E00CA1D6F9B0140E5D /* FormationPresets.swift in Sources */,
+				A175B52584E8AC922689FD1C /* FrameInspectorTab.swift in Sources */,
+				F5551766C10BFF6F440C0C96 /* GameInfo.swift in Sources */,
+				F68ABA0E2F9191CD80FFD65A /* GameInspectorTab.swift in Sources */,
+				2C65911CDD836ED1BE6F627A /* InspectorView.swift in Sources */,
+				F6F4EA9A92AB7D7C775CD199 /* PlaybackControlView.swift in Sources */,
+				5E29CD38531E47B97292FBE3 /* PlayerInspectorTab.swift in Sources */,
+				EA9DDBE17BA59523629E4058 /* PlayerSprite.swift in Sources */,
+				0939C8AC21FA58A745D9D6A8 /* SportType.swift in Sources */,
+				5B2EBC60D54C21C6ED915564 /* Sprite.swift in Sources */,
+				C95CDB3C6E0C95FF6FBA966C /* SpriteFrameInfo.swift in Sources */,
+				9B701A6AD085E90E1D568D37 /* SpriteInspectorTab.swift in Sources */,
+				7A26080865F89DF398A84B30 /* TacticsDocument.swift in Sources */,
+				BAC9F1D3925ADE29D4929108 /* TrailPathBuilder.swift in Sources */,
+				0DBC002ABBAB8D675229D1B1 /* WinningNoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEEA1A71B07FC7C54C05C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47A1B53CF9CF6071918F71D /* WinningNote */;
+			targetProxy = 9D03032B8314E7A19ECBD201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063D13399B4718AE20B6DC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winningnote.WinningNoteTests;
+				PRODUCT_MODULE_NAME = WinningNoteTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinningNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WinningNote";
+			};
+			name = Release;
+		};
+		117AF3A131835CFFA333BEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WinningNote/WinningNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				INFOPLIST_FILE = WinningNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winningnote.WinningNote;
+				PRODUCT_NAME = WinningNote;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Debug;
+		};
+		340FA8D83090E7F0FFED8481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = WinningNote;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		9A482B3A9889C9F27925D57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WinningNote/WinningNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				INFOPLIST_FILE = WinningNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winningnote.WinningNote;
+				PRODUCT_NAME = WinningNote;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Release;
+		};
+		EA40EBCFB1A20B7ECCDA99C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WinningNote;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F470A57AC02183DC3A3A64F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winningnote.WinningNoteTests;
+				PRODUCT_MODULE_NAME = WinningNoteTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinningNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WinningNote";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496A9BDBB056317087289B62 /* Build configuration list for PBXNativeTarget "WinningNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117AF3A131835CFFA333BEE7 /* Debug */,
+				9A482B3A9889C9F27925D57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4ACE6DD96A83E4DCCA4EE8A /* Build configuration list for PBXNativeTarget "WinningNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F470A57AC02183DC3A3A64F8 /* Debug */,
+				063D13399B4718AE20B6DC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEA5EEBD1374AF1ACB5BB22C /* Build configuration list for PBXProject "WinningNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA40EBCFB1A20B7ECCDA99C2 /* Debug */,
+				340FA8D83090E7F0FFED8481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A68BC28A6A4B38CEB2CB290 /* Project object */;
+}

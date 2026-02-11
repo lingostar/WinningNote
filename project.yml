@@ -1,0 +1,74 @@
+name: WinningNote
+options:
+  bundleIdPrefix: com.winningnote
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: 1
+    GENERATE_INFOPLIST_FILE: true
+    SWIFT_EMIT_LOC_STRINGS: true
+    PRODUCT_NAME: "WinningNote"
+
+targets:
+  WinningNote:
+    type: application
+    platform: macOS
+    sources:
+      - path: WinningNote
+        excludes:
+          - "Preview Content/**"
+    resources:
+      - path: WinningNote/Resources
+      - path: WinningNote/Preview Content
+    settings:
+      base:
+        INFOPLIST_FILE: WinningNote/Info.plist
+        CODE_SIGN_ENTITLEMENTS: WinningNote/WinningNote.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.winningnote.WinningNote
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: true
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: true
+        PRODUCT_NAME: "WinningNote"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        ENABLE_TESTING_SEARCH_PATHS: true
+    info:
+      path: WinningNote/Info.plist
+      properties:
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: "WinningNote Tactics"
+            CFBundleTypeRole: Editor
+            LSItemContentTypes:
+              - com.winningnote.tactics
+            LSHandlerRank: Owner
+        UTExportedTypeDeclarations:
+          - UTTypeConformsTo:
+              - public.json
+              - public.data
+            UTTypeDescription: "WinningNote Tactics Document"
+            UTTypeIdentifier: com.winningnote.tactics
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - wntactics
+
+  WinningNoteTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: WinningNoteTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: true
+        PRODUCT_BUNDLE_IDENTIFIER: com.winningnote.WinningNoteTests
+        PRODUCT_MODULE_NAME: WinningNoteTests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/WinningNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WinningNote"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+    dependencies:
+      - target: WinningNote

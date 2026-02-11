@@ -59,10 +59,16 @@ struct FrameInspectorTab: View {
                 Section("포커스") {
                     HStack {
                         Text("X")
-                        TextField("X", value: frame.focusPoint.x, format: .number)
+                        TextField("X", value: Binding(
+                            get: { Double(frame.wrappedValue.focusPoint.x) },
+                            set: { frame.wrappedValue.focusPoint.x = CGFloat($0) }
+                        ), format: .number)
                             .textFieldStyle(.roundedBorder)
                         Text("Y")
-                        TextField("Y", value: frame.focusPoint.y, format: .number)
+                        TextField("Y", value: Binding(
+                            get: { Double(frame.wrappedValue.focusPoint.y) },
+                            set: { frame.wrappedValue.focusPoint.y = CGFloat($0) }
+                        ), format: .number)
                             .textFieldStyle(.roundedBorder)
                     }
                 }
