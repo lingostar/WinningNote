@@ -69,6 +69,7 @@
 		EA2F65D74CB7907AD5E101EB /* SpriteInspectorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteInspectorTab.swift; sourceTree = "<group>"; };
 		EBB96C416D6531F4822E9623 /* PlaybackControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlView.swift; sourceTree = "<group>"; };
 		EEAB36678FC92F264CEFD02C /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
+		F134253FBC6A19F2141FCC9B /* WinningNoteDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WinningNoteDebug.entitlements; sourceTree = "<group>"; };
 		F585982DD39C3E939C1AE4DC /* SportType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportType.swift; sourceTree = "<group>"; };
 		F63186D52DB7A17B694FBD49 /* FieldCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldCanvasView.swift; sourceTree = "<group>"; };
 		FAC99ABCE5D12C119D3AE8A7 /* AnimationFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFrame.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				6F5E4D4A20300CB41EE1C01D /* Info.plist */,
 				94DE5A28FAE1BB6729569546 /* WinningNote.entitlements */,
 				58339FB6B136D7F2A012C2AC /* WinningNoteApp.swift */,
+				F134253FBC6A19F2141FCC9B /* WinningNoteDebug.entitlements */,
 				28967E27217B5F37DC7C0F71 /* Animation */,
 				230E230D73FD8F7D3592ABC6 /* FieldRenderers */,
 				76D4C88544E1ED0BD4846F1E /* Models */,
@@ -344,10 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = WinningNote/WinningNote.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WinningNote/WinningNoteDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = WinningNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

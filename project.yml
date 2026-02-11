@@ -30,15 +30,20 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: WinningNote/Info.plist
-        CODE_SIGN_ENTITLEMENTS: WinningNote/WinningNote.entitlements
         PRODUCT_BUNDLE_IDENTIFIER: com.winningnote.WinningNote
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         COMBINE_HIDPI_IMAGES: true
         CODE_SIGN_STYLE: Automatic
-        ENABLE_HARDENED_RUNTIME: true
         PRODUCT_NAME: "WinningNote"
         SWIFT_STRICT_CONCURRENCY: minimal
         ENABLE_TESTING_SEARCH_PATHS: true
+      configs:
+        Debug:
+          CODE_SIGN_ENTITLEMENTS: WinningNote/WinningNoteDebug.entitlements
+          ENABLE_HARDENED_RUNTIME: false
+        Release:
+          CODE_SIGN_ENTITLEMENTS: WinningNote/WinningNote.entitlements
+          ENABLE_HARDENED_RUNTIME: true
     info:
       path: WinningNote/Info.plist
       properties:
