@@ -24,6 +24,7 @@ struct TacticsData: Codable, Equatable {
 
 struct TacticsDocument: FileDocument {
     static var readableContentTypes: [UTType] { [.winningNoteTactics, .json] }
+    static var writableContentTypes: [UTType] { [.winningNoteTactics] }
 
     var data: TacticsData
 
