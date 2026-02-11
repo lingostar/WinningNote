@@ -45,14 +45,19 @@ struct PlaybackControlView: View {
                 .frame(height: 24)
 
             // 프레임 슬라이더
-            Slider(
-                value: Binding(
-                    get: { Double(animationEngine.currentFrameNumber) },
-                    set: { animationEngine.goToFrame(Int($0), totalFrames: document.frameCount) }
-                ),
-                in: 1...max(1, Double(document.frameCount)),
-                step: 1
-            )
+            if document.frameCount > 1 {
+                Slider(
+                    value: Binding(
+                        get: { Double(animationEngine.currentFrameNumber) },
+                        set: { animationEngine.goToFrame(Int($0), totalFrames: document.frameCount) }
+                    ),
+                    in: 1...Double(document.frameCount),
+                    step: 1
+                )
+            } else {
+                Slider(value: .constant(1.0), in: 0...2)
+                    .disabled(true)
+            }
 
             // 프레임 카운터
             Text("FRAME \(animationEngine.currentFrameNumber) of \(document.frameCount)")
